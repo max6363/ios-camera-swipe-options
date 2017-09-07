@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A8E2F81F61A14400CAC915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8E2F71F61A14400CAC915 /* AppDelegate.swift */; };
+		88A8E2FA1F61A14400CAC915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8E2F91F61A14400CAC915 /* ViewController.swift */; };
+		88A8E2FD1F61A14400CAC915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8E2FB1F61A14400CAC915 /* Main.storyboard */; };
+		88A8E2FF1F61A14400CAC915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A8E2FE1F61A14400CAC915 /* Assets.xcassets */; };
+		88A8E3021F61A14400CAC915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8E3001F61A14400CAC915 /* LaunchScreen.storyboard */; };
+		88A8E30D1F61A14400CAC915 /* ios_camera_swipe_optionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8E30C1F61A14400CAC915 /* ios_camera_swipe_optionsTests.swift */; };
+		88A8E3181F61A14400CAC915 /* ios_camera_swipe_optionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8E3171F61A14400CAC915 /* ios_camera_swipe_optionsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88A8E3091F61A14400CAC915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A8E2EC1F61A14400CAC915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A8E2F31F61A14400CAC915;
+			remoteInfo = "ios-camera-swipe-options";
+		};
+		88A8E3141F61A14400CAC915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A8E2EC1F61A14400CAC915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A8E2F31F61A14400CAC915;
+			remoteInfo = "ios-camera-swipe-options";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88A8E2F41F61A14400CAC915 /* ios-camera-swipe-options.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-camera-swipe-options.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A8E2F71F61A14400CAC915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88A8E2F91F61A14400CAC915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88A8E2FC1F61A14400CAC915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A8E2FE1F61A14400CAC915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A8E3011F61A14400CAC915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88A8E3031F61A14400CAC915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A8E3081F61A14400CAC915 /* ios-camera-swipe-optionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-camera-swipe-optionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A8E30C1F61A14400CAC915 /* ios_camera_swipe_optionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_camera_swipe_optionsTests.swift; sourceTree = "<group>"; };
+		88A8E30E1F61A14400CAC915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A8E3131F61A14400CAC915 /* ios-camera-swipe-optionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-camera-swipe-optionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A8E3171F61A14400CAC915 /* ios_camera_swipe_optionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_camera_swipe_optionsUITests.swift; sourceTree = "<group>"; };
+		88A8E3191F61A14400CAC915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A8E2F11F61A14400CAC915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A8E3051F61A14400CAC915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A8E3101F61A14400CAC915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A8E2EB1F61A14400CAC915 = {
+			isa = PBXGroup;
+			children = (
+				88A8E2F61F61A14400CAC915 /* ios-camera-swipe-options */,
+				88A8E30B1F61A14400CAC915 /* ios-camera-swipe-optionsTests */,
+				88A8E3161F61A14400CAC915 /* ios-camera-swipe-optionsUITests */,
+				88A8E2F51F61A14400CAC915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A8E2F51F61A14400CAC915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A8E2F41F61A14400CAC915 /* ios-camera-swipe-options.app */,
+				88A8E3081F61A14400CAC915 /* ios-camera-swipe-optionsTests.xctest */,
+				88A8E3131F61A14400CAC915 /* ios-camera-swipe-optionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A8E2F61F61A14400CAC915 /* ios-camera-swipe-options */ = {
+			isa = PBXGroup;
+			children = (
+				88A8E2F71F61A14400CAC915 /* AppDelegate.swift */,
+				88A8E2F91F61A14400CAC915 /* ViewController.swift */,
+				88A8E2FB1F61A14400CAC915 /* Main.storyboard */,
+				88A8E2FE1F61A14400CAC915 /* Assets.xcassets */,
+				88A8E3001F61A14400CAC915 /* LaunchScreen.storyboard */,
+				88A8E3031F61A14400CAC915 /* Info.plist */,
+			);
+			path = "ios-camera-swipe-options";
+			sourceTree = "<group>";
+		};
+		88A8E30B1F61A14400CAC915 /* ios-camera-swipe-optionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				88A8E30C1F61A14400CAC915 /* ios_camera_swipe_optionsTests.swift */,
+				88A8E30E1F61A14400CAC915 /* Info.plist */,
+			);
+			path = "ios-camera-swipe-optionsTests";
+			sourceTree = "<group>";
+		};
+		88A8E3161F61A14400CAC915 /* ios-camera-swipe-optionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88A8E3171F61A14400CAC915 /* ios_camera_swipe_optionsUITests.swift */,
+				88A8E3191F61A14400CAC915 /* Info.plist */,
+			);
+			path = "ios-camera-swipe-optionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A8E2F31F61A14400CAC915 /* ios-camera-swipe-options */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A8E31C1F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-options" */;
+			buildPhases = (
+				88A8E2F01F61A14400CAC915 /* Sources */,
+				88A8E2F11F61A14400CAC915 /* Frameworks */,
+				88A8E2F21F61A14400CAC915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-camera-swipe-options";
+			productName = "ios-camera-swipe-options";
+			productReference = 88A8E2F41F61A14400CAC915 /* ios-camera-swipe-options.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88A8E3071F61A14400CAC915 /* ios-camera-swipe-optionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A8E31F1F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-optionsTests" */;
+			buildPhases = (
+				88A8E3041F61A14400CAC915 /* Sources */,
+				88A8E3051F61A14400CAC915 /* Frameworks */,
+				88A8E3061F61A14400CAC915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A8E30A1F61A14400CAC915 /* PBXTargetDependency */,
+			);
+			name = "ios-camera-swipe-optionsTests";
+			productName = "ios-camera-swipe-optionsTests";
+			productReference = 88A8E3081F61A14400CAC915 /* ios-camera-swipe-optionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88A8E3121F61A14400CAC915 /* ios-camera-swipe-optionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A8E3221F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-optionsUITests" */;
+			buildPhases = (
+				88A8E30F1F61A14400CAC915 /* Sources */,
+				88A8E3101F61A14400CAC915 /* Frameworks */,
+				88A8E3111F61A14400CAC915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A8E3151F61A14400CAC915 /* PBXTargetDependency */,
+			);
+			name = "ios-camera-swipe-optionsUITests";
+			productName = "ios-camera-swipe-optionsUITests";
+			productReference = 88A8E3131F61A14400CAC915 /* ios-camera-swipe-optionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A8E2EC1F61A14400CAC915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = aub;
+				TargetAttributes = {
+					88A8E2F31F61A14400CAC915 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					88A8E3071F61A14400CAC915 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 88A8E2F31F61A14400CAC915;
+					};
+					88A8E3121F61A14400CAC915 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 88A8E2F31F61A14400CAC915;
+					};
+				};
+			};
+			buildConfigurationList = 88A8E2EF1F61A14400CAC915 /* Build configuration list for PBXProject "ios-camera-swipe-options" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A8E2EB1F61A14400CAC915;
+			productRefGroup = 88A8E2F51F61A14400CAC915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A8E2F31F61A14400CAC915 /* ios-camera-swipe-options */,
+				88A8E3071F61A14400CAC915 /* ios-camera-swipe-optionsTests */,
+				88A8E3121F61A14400CAC915 /* ios-camera-swipe-optionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A8E2F21F61A14400CAC915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8E3021F61A14400CAC915 /* LaunchScreen.storyboard in Resources */,
+				88A8E2FF1F61A14400CAC915 /* Assets.xcassets in Resources */,
+				88A8E2FD1F61A14400CAC915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A8E3061F61A14400CAC915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A8E3111F61A14400CAC915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A8E2F01F61A14400CAC915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8E2FA1F61A14400CAC915 /* ViewController.swift in Sources */,
+				88A8E2F81F61A14400CAC915 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A8E3041F61A14400CAC915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8E30D1F61A14400CAC915 /* ios_camera_swipe_optionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A8E30F1F61A14400CAC915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A8E3181F61A14400CAC915 /* ios_camera_swipe_optionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88A8E30A1F61A14400CAC915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A8E2F31F61A14400CAC915 /* ios-camera-swipe-options */;
+			targetProxy = 88A8E3091F61A14400CAC915 /* PBXContainerItemProxy */;
+		};
+		88A8E3151F61A14400CAC915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A8E2F31F61A14400CAC915 /* ios-camera-swipe-options */;
+			targetProxy = 88A8E3141F61A14400CAC915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88A8E2FB1F61A14400CAC915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A8E2FC1F61A14400CAC915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88A8E3001F61A14400CAC915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A8E3011F61A14400CAC915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A8E31A1F61A14400CAC915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88A8E31B1F61A14400CAC915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A8E31D1F61A14400CAC915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-camera-swipe-options/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iqtech..ios-camera-swipe-options";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88A8E31E1F61A14400CAC915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-camera-swipe-options/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iqtech..ios-camera-swipe-options";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88A8E3201F61A14400CAC915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-camera-swipe-optionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iqtech..ios-camera-swipe-optionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-camera-swipe-options.app/ios-camera-swipe-options";
+			};
+			name = Debug;
+		};
+		88A8E3211F61A14400CAC915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-camera-swipe-optionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iqtech..ios-camera-swipe-optionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-camera-swipe-options.app/ios-camera-swipe-options";
+			};
+			name = Release;
+		};
+		88A8E3231F61A14400CAC915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-camera-swipe-optionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iqtech..ios-camera-swipe-optionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-camera-swipe-options";
+			};
+			name = Debug;
+		};
+		88A8E3241F61A14400CAC915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-camera-swipe-optionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iqtech..ios-camera-swipe-optionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-camera-swipe-options";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A8E2EF1F61A14400CAC915 /* Build configuration list for PBXProject "ios-camera-swipe-options" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A8E31A1F61A14400CAC915 /* Debug */,
+				88A8E31B1F61A14400CAC915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A8E31C1F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-options" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A8E31D1F61A14400CAC915 /* Debug */,
+				88A8E31E1F61A14400CAC915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88A8E31F1F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-optionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A8E3201F61A14400CAC915 /* Debug */,
+				88A8E3211F61A14400CAC915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88A8E3221F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-optionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A8E3231F61A14400CAC915 /* Debug */,
+				88A8E3241F61A14400CAC915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A8E2EC1F61A14400CAC915 /* Project object */;
+}
