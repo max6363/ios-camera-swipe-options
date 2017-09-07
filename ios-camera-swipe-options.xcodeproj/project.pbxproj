@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884999F71F61A2C200108283 /* iOSSwipeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884999F51F61A2BB00108283 /* iOSSwipeItemCell.swift */; };
+		884999F81F61A2C200108283 /* iOSSwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884999F61F61A2BB00108283 /* iOSSwipeOptions.swift */; };
 		88A8E2F81F61A14400CAC915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8E2F71F61A14400CAC915 /* AppDelegate.swift */; };
 		88A8E2FA1F61A14400CAC915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8E2F91F61A14400CAC915 /* ViewController.swift */; };
 		88A8E2FD1F61A14400CAC915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8E2FB1F61A14400CAC915 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		884999F51F61A2BB00108283 /* iOSSwipeItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSwipeItemCell.swift; sourceTree = "<group>"; };
+		884999F61F61A2BB00108283 /* iOSSwipeOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSwipeOptions.swift; sourceTree = "<group>"; };
 		88A8E2F41F61A14400CAC915 /* ios-camera-swipe-options.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-camera-swipe-options.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A8E2F71F61A14400CAC915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88A8E2F91F61A14400CAC915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				88A8E2F71F61A14400CAC915 /* AppDelegate.swift */,
 				88A8E2F91F61A14400CAC915 /* ViewController.swift */,
+				884999F51F61A2BB00108283 /* iOSSwipeItemCell.swift */,
+				884999F61F61A2BB00108283 /* iOSSwipeOptions.swift */,
 				88A8E2FB1F61A14400CAC915 /* Main.storyboard */,
 				88A8E2FE1F61A14400CAC915 /* Assets.xcassets */,
 				88A8E3001F61A14400CAC915 /* LaunchScreen.storyboard */,
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884999F71F61A2C200108283 /* iOSSwipeItemCell.swift in Sources */,
 				88A8E2FA1F61A14400CAC915 /* ViewController.swift in Sources */,
 				88A8E2F81F61A14400CAC915 /* AppDelegate.swift in Sources */,
+				884999F81F61A2C200108283 /* iOSSwipeOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +537,7 @@
 				88A8E31E1F61A14400CAC915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88A8E31F1F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-optionsTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +546,7 @@
 				88A8E3211F61A14400CAC915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88A8E3221F61A14400CAC915 /* Build configuration list for PBXNativeTarget "ios-camera-swipe-optionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +555,7 @@
 				88A8E3241F61A14400CAC915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
