@@ -1,6 +1,6 @@
 //
 //  iOSSwipeItemCell.swift
-//  ARKit-Demo
+//  ios-camera-swipe-options
 //
 //  Created by Minhaz Panara on 05/09/17.
 //
